@@ -3,14 +3,6 @@
         <nav>
             <ul class="nav">
                 <li class="nav-item">
-                    <router-link
-                        class="nav-link active"
-                        aria-current="page"
-                        href="#"
-                        >Active</router-link
-                    >
-                </li>
-                <li class="nav-item">
                     <router-link class="nav-link" to="/">Home</router-link>
                 </li>
                 <li class="nav-item">
