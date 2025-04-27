@@ -10,7 +10,7 @@ const routes = [
         path: "/",
         name: "home",
         component: HomeView,
-        meta: { title: "Home page" }
+        meta: { title: "Home page" },
     },
     {
         path: "/about",
@@ -27,8 +27,7 @@ const routes = [
         path: "/help",
         name: "help",
         component: HelpComp,
-        meta: { title: "Help page" }
-
+        meta: { title: "Help page" },
     },
 ];
 
