@@ -2,6 +2,8 @@ import Vue from "vue";
 import VueRouter from "vue-router";
 import HomeView from "../views/HomeView.vue";
 import HelpComp from "@/views/help.vue";
+import ContactComp from "@/views/contact.vue";
+import BlogComp from "@/views/blog.vue";
 
 Vue.use(VueRouter);
 
@@ -28,6 +30,18 @@ const routes = [
         name: "help",
         component: HelpComp,
         meta: { title: "Help page" },
+    },
+    {
+        path: "/contact",
+        name: "contact",
+        component: ContactComp,
+        meta: { title: "Contact page" },
+    },
+    {
+        path: "/blog",
+        name: "blog",
+        component: BlogComp,
+        meta: { title: "Blog page" },
     },
 ];
 

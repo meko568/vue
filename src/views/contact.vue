@@ -1,17 +1,19 @@
 <template>
-    <div class="help">
+    <div class="contact">
         <h1>{{ name }}</h1>
         <p>{{ des }}</p>
     </div>
 </template>
+
 <script>
 export default {
-    name: "helpComp",
+    name: "contactComp",
     data: function () {
         return {
-            name: "Help",
-            des: "This is a Help Page",
+            name: "Contact",
+            des: "This is a Contact Page",
         };
     },
 };
+import "@fortawesome/fontawesome-free/css/all.css";
 </script>

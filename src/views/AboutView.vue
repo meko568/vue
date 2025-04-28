@@ -1,6 +1,7 @@
 <template>
     <div class="about">
-        <h1>This is an about page</h1>
+        <h1>{{ name }}</h1>
+        <p>{{ des }}</p>
         <welcomeComp></welcomeComp>
     </div>
 </template>
@@ -13,6 +14,12 @@ export default {
     name: "AboutView",
     components: {
         welcomeComp,
+    },
+    data: function () {
+        return {
+            name: "About",
+            des: "This is an About Page",
+        };
     },
 };
 </script>
